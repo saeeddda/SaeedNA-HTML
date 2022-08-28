@@ -1,0 +1,29 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت دانا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+DANA fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (NKVVGF)
+------------------------------------------------------------------------------------- fonts/-
+*
+**/
+
+//base
+@import 'base/typography',
+        'base/reset';
+
+//abstract
+@import 'abstracts/variables';
+
+//components
+@import 'components/button',
+        'components/skill',
+        'components/table',
+        'components/navigation',
+        'components/list_item';
+
+//layout
+@import 'layout/home',
+        'layout/portfolio';
