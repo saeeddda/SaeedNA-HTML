@@ -1,0 +1,21 @@
+.title{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    span{
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+        border-radius: $title-border-radius;
+        background-color: $primary-color;
+    }
+    
+    h3{
+        margin: 0;
+        padding: 0;
+        font-size: $heading2-font-size;
+        font-weight: 700;
+    }
+}

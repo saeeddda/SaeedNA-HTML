@@ -12,16 +12,19 @@ This set of fonts are used in this project under the license: (NKVVGF)
 
 //base
 @import 'base/typography',
-        'base/reset';
+        'base/reset',
+        'base/base';
 
 //abstract
-@import 'abstracts/variables';
+@import 'abstracts/variables',
+        'abstracts/functions';
 
 //components
 @import 'components/button',
         'components/skill',
         'components/table',
         'components/navigation',
+        'components/title',
         'components/list_item';
 
 //layout

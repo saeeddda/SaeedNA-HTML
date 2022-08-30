@@ -88,13 +88,7 @@
 		 url('../fonts/woff2/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
 		 url('../fonts/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 }
-
-
-/**
-Iranic fonts	
-**/
-
-
+/**   Iranic fonts	 **/
 @font-face {
 	font-family: dana;
 	font-style: italic;
@@ -186,5 +180,41 @@ Iranic fonts
 		 url('../fonts/woff/dana-regularitalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 }
 
+$size-mobile: 576px;
+$size-tablet: 992px;
+$size-desktop: 1200px;
 
-$font_family : dana, 'Tahoma', sans-serif;
+$font-family : dana, 'Tahoma', sans-serif;
+
+$primary-color: #237AEC;
+$secondary-color: #1fb3ed;
+$hover-primary-color: #0d5eaf;
+$hover-secoundary-color: #1894c5;
+$hover-color: #F6F6F6;
+$main-background-color: #4e4e4e;
+$background-color: #fff;
+$heading-color: #141414;
+$text-color: #292929;
+$icon-color: #a1a1a1;
+$button-text-color: #a1a1a1;
+
+$heading1-font-size: 30px;
+$heading2-font-size: 20px;
+$text-font-size: 16px;
+$item-font-size: 15px;
+$persent-font-size: 10px;
+
+$primary-border-radius: 70px;
+$item-border-radius: 20px;
+$quickview-border-radius: 50px;
+$image-border-radius: 50px;
+$avatar-border-radius: 50%;
+$button-border-radius: 50%;
+$title-border-radius: 50%;
+
+$mobile-primary-border-radius: 40px;
+$mobile-item-border-radius: 15px;
+$mobile-quickview-border-radius: 30px;
+$mobile-image-border-radius: 30px;
+$mobile-avatar-border-radius: 50%;
+$mobile-button-border-radius: 50%;

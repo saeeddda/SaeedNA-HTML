@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.mt-15{
+    margin-top: 15px !important;
+}
+
+.mb-15{
+    margin-bottom: 15px !important;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
