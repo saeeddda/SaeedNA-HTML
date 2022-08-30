@@ -10,21 +10,20 @@ This set of fonts are used in this project under the license: (NKVVGF)
 *
 **/
 
-//base
-@import 'base/typography',
-        'base/reset',
-        'base/base';
-
 //abstract
 @import 'abstracts/variables',
         'abstracts/functions';
 
+//base
+@import 'base/typography',
+        'base/reset';
+
 //components
 @import 'components/button',
+        'components/title',
         'components/skill',
         'components/table',
         'components/navigation',
-        'components/title',
         'components/list_item';
 
 //layout
