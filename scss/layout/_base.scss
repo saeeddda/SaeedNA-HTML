@@ -10,19 +10,5 @@
     .main-content{
         height: 100%;
         /* overflow: hidden scroll; */
-
-        .about-me{
-            padding: 10px;
-
-            .content{
-                margin-right: 20px;
-
-                p{
-                    font-weight: normal;
-                    font-size: $text-font-size;
-                    line-height: 35px;
-                }
-            }
-        }
     }
 }

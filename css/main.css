@@ -324,7 +324,6 @@ body {
 }
 .skills .content .skill .skill-progress .skill-bar-percentage {
   font-weight: 300;
-  font-size: 10px;
   margin-right: 10px;
 }
 
@@ -342,7 +341,7 @@ table.table tbody tr td span {
   background-color: #237AEC;
   display: inline-block;
   margin-left: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 nav.menu {
@@ -384,6 +383,20 @@ nav.menu .menu-item a {
 nav.menu .menu-item a img {
   width: 24px;
   height: 24px;
+}
+
+.main-side {
+  width: 100%;
+  height: calc(100vh - 200px);
+  margin-right: 160px;
+  padding: 30px 70px 30px 50px;
+  background-color: #fff;
+  border-radius: 70px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+.main-side .main-content {
+  height: 100%;
+  /* overflow: hidden scroll; */
 }
 
 .profile-side {
@@ -447,30 +460,17 @@ nav.menu .menu-item a img {
   text-decoration: none;
 }
 .profile-side .content .social-icons a img.icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 
-.main-side {
-  width: 100%;
-  height: calc(100vh - 200px);
-  margin-right: 160px;
-  padding: 30px 70px 30px 50px;
-  background-color: #fff;
-  border-radius: 70px;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
-}
-.main-side .main-content {
-  height: 100%;
-  /* overflow: hidden scroll; */
-}
-.main-side .main-content .about-me {
+.about-me {
   padding: 10px;
 }
-.main-side .main-content .about-me .content {
+.about-me .content {
   margin-right: 20px;
 }
-.main-side .main-content .about-me .content p {
+.about-me .content p {
   font-weight: normal;
   font-size: 16px;
   line-height: 35px;
@@ -481,7 +481,7 @@ nav.menu .menu-item a img {
 }
 .portfolio .content .portfolio-item {
   margin: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
@@ -492,18 +492,18 @@ nav.menu .menu-item a img {
 .portfolio .content .portfolio-item a .image {
   width: 280px;
   height: 200px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 .portfolio .content .portfolio-item a .image img {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 .portfolio .content .portfolio-item a .image-title {
   padding: 10px 15px;
   background-color: #383838;
   color: #fff;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 20px 20px;
   display: flex;
   justify-content: space-between;
   opacity: 0;
@@ -518,6 +518,43 @@ nav.menu .menu-item a img {
   bottom: 0 !important;
   opacity: 0.95 !important;
   visibility: visible !important;
+}
+
+.services .content {
+  display: flex;
+}
+.services .content .service-item {
+  width: 45%;
+  min-height: 70px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.068);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .content .service-item .service-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services .content .service-item .service-content h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.services .content .service-item .service-content p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.services .content .service-item img.image {
+  width: 100px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
