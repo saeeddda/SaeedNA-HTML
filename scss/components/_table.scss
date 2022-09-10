@@ -1,0 +1,24 @@
+table{
+    &.table{
+        margin: 0 auto;
+        padding: 10px;
+        text-align: right;
+
+        tbody{
+            tr{
+                td{
+                    padding: 15px 5px;
+
+                    span{
+                        width: 10px;
+                        height: 10px;
+                        background-color: $primary-color;
+                        display: inline-block;
+                        margin-left: 10px;
+                        border-radius: $item-border-radius;
+                    }
+                }
+            }
+        }
+    }
+}

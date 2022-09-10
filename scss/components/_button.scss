@@ -5,12 +5,12 @@
     border: none;
     transition: all 200ms ease-in-out;
 
-    .btn-primary{
-        background: linear-gradient(270deg,$secondary-color 0%, $primary-color 100%);
+    &.primary{
+        background: linear-gradient(270deg, $secondary-color 0%, $primary-color 100%);
         box-shadow: 0px 3px 6px $primary-color; 
         
         &:hover{
-            background: linear-gradient(270deg,$hover-secoundary-color 0%, $hover-primary-color 100%);
+            background: linear-gradient(270deg, $hover-secoundary-color 0%, $hover-primary-color 100%);
         }
     }
 

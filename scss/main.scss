@@ -12,11 +12,11 @@ This set of fonts are used in this project under the license: (NKVVGF)
 
 //abstract
 @import 'abstracts/variables',
+        'abstracts/reset',
         'abstracts/functions';
 
 //base
-@import 'base/typography',
-        'base/reset';
+@import 'base/typography';
 
 //components
 @import 'components/button',
@@ -27,5 +27,6 @@ This set of fonts are used in this project under the license: (NKVVGF)
         'components/list_item';
 
 //layout
-@import 'layout/home',
+@import 'layout/profile',
+        'layout/home',
         'layout/portfolio';

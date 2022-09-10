@@ -1,0 +1,28 @@
+.main-side{
+    width: 100%;
+    height: calc(100vh - 200px);
+    margin-right: 160px;
+    padding: 30px 70px 30px 50px;
+    background-color: $background-color;
+    border-radius: $primary-border-radius;
+    box-shadow: $primary-box-shadow;
+
+    .main-content{
+        height: 100%;
+        /* overflow: hidden scroll; */
+
+        .about-me{
+            padding: 10px;
+
+            .content{
+                margin-right: 20px;
+
+                p{
+                    font-weight: normal;
+                    font-size: $text-font-size;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
