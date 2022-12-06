@@ -1,0 +1,68 @@
+.blog{
+    .content{
+        display: flex;
+        .blog-item{
+            width: 280px;
+            margin: 10px;
+            border-radius: $item-border-radius;
+            background-color: $white-color;
+            box-shadow: $item-box-shadow;
+        
+            .blog-thumbnail{
+                width: 280px;
+                img{
+                    width: 100%;
+                    border-radius: $item-border-radius $item-border-radius 0 0;
+                }
+            }
+            .blog-content{
+                padding: 10px;
+                h3{
+                    font-size: $heading2-font-size;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                p{
+                    font-size: $item-font-size;
+                    line-height: 20px;
+                }
+            }
+            .blog-footer{
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .icons{
+                    display: flex;
+                    align-items: center;
+                    .icon{
+                        margin-left: 5px;
+                        display: flex;
+                        align-items: center;
+                        font-size: $persent-font-size;
+                        &.user::before{
+                            content: url('../img/User.png');
+                            margin-left: 5px;
+                        }
+                        &.clock::before{
+                            content: url('../img/Clock.png');
+                            margin-left: 5px;
+                        }
+                    }
+                }
+                .link{
+                    padding: 10px 15px;
+                    border-radius: $mini-button-border-radius;
+                    background-color: $white-color;
+                    &:hover{
+                        background-color: $item-background-color;
+                    }
+                    &.arrow-left::before{
+                        content: url('../img/Arrow-left.png');
+                    }
+                }
+            }
+        }
+    }
+}
