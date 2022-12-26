@@ -1,8 +1,82 @@
 .history{
     .content{
         display: flex;
-        .history-timeline{
-            
+        position: relative;
+        .history-timeline::before{
+            content: '';
+            width: 5px;
+            height: 90%;
+            display: block;
+            background-color: $primary-color;
+            border-radius: $primary-border-radius;
+            position: absolute;
+            top: 25px;
+            right: 30px;
+        }
+        .history-holder{
+            padding-right: 35px;
+            .time-item{
+                position: relative;
+
+                &::before{
+                    content: '';
+                    width: 16px;
+                    height: 16px;
+                    background-color: $primary-color;
+                    display: block;
+                    border-radius: $primary-border-radius;
+                    position: absolute;
+                    top: 20px;
+                    right: -10px;
+                }
+                .top{
+                    padding: 20px;
+                    max-width: 300px;
+                    margin: 0 10px 15px 0;
+                    border-radius: $item-border-radius;
+                    background-color: $white-color;
+                    display: flex;
+                    justify-content: space-between;
+                    box-shadow: $item-box-shadow;
+    
+                    .icon{
+                        display: flex;
+                        align-items: center;
+                        font-size: $persent-font-size;
+    
+                        &.location::before{
+                            content: url('../img/Location.png');
+                            margin-left: 5px;
+                        }
+                        &.place::before{
+                            content: url('../img/Building.png');
+                            margin-left: 5px;
+                        }
+                        &.date::before{
+                            content: url('../img/Calendar.png');
+                            margin-left: 5px;
+                        }
+                    }
+                }
+                .bottom{
+                    padding: 20px;
+                    max-width: 80%;
+                    margin: 0 10px 20px 0;
+                    border-radius: $item-border-radius;
+                    background-color: $white-color;
+                    box-shadow: $item-box-shadow;
+    
+                    h3{
+                        font-size: $text-font-size;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: $noraml-text-font-size;
+                        line-height: 20px;
+                    }
+                }
+            }
         }
     }
 }
