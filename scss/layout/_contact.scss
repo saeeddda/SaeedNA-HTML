@@ -1,0 +1,44 @@
+.contact-me{
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        p{
+            font-size: $text-font-size;
+            line-height: 35px;
+        }
+
+        .infos{
+            min-width: 500px;
+            margin: 10px auto;
+            padding: 15px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+            .info{
+                font-size: $heading3-font-size;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+
+                &.phone::before{
+                    content: url('../img/Phone.svg');
+                    margin-left: 10px;
+                }
+
+                &.email::before{
+                    content: url('../img/Email.svg');
+                    margin-left: 10px;
+                }
+
+                &.address::before{
+                    content: url('../img/Location.svg');
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
