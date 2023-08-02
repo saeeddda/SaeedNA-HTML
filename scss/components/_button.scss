@@ -4,6 +4,7 @@
     border-radius: $button-border-radius;
     border: none;
     transition: all 200ms ease-in-out;
+    font-family: $font-family;
 
     &.primary{
         background: linear-gradient(270deg, $secondary-color 0%, $primary-color 100%);
